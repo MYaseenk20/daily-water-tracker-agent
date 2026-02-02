@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-ai"
+version = "0.1.0"
+description = "Production-grade agentic AI system"
+readme = "README.md"
+requires-python = ">=3.11"
+#dependencies = [
+#  "fastapi",
+#  "uvicorn[standard]",
+#  "pydantic",
+#  "python-dotenv",
+#  "httpx",
+#  "tenacity",
+#]
+#
+#[project.optional-dependencies]
+#dev = ["pytest", "ruff", "mypy"]
+#llm = ["openai"]
+#rag = ["chromadb"]
